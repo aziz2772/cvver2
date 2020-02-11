@@ -1,0 +1,360 @@
+body
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #313131;
+}
+/* head css */
+#header
+{
+    height: 120vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.user-box
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    position: absolute;
+    text-align: center;
+}
+.user-box img
+{
+  border-radius: 50%;
+  width: 260px;
+  border: 2px solid  #6caed5;
+}
+.user-box h1
+{
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+}
+.user-box p
+{
+    color: #fff;
+}
+
+/* menu */
+#menu
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    height: 50px;
+    background: linear-gradient(to left, #313131, #353b48);
+}
+#menu li
+{
+    list-style: none;
+    display: inline-block;
+   
+}
+#menu li a
+{
+    text-decoration: none;
+    position: relative;
+    color:#fff;
+    font-size:  20px;
+    font-weight: 700;
+    font-family: arial;
+    display: inline-block;
+    overflow: hidden;
+    transition: 0.6s all;
+    padding: 14px 30px;
+    /* text-transform: uppercase; */
+}
+#menu li a:before
+{
+    content: '';
+    width: 50px;
+    position: absolute;
+    border-bottom: 3px solid #f70b0b;
+    bottom: 0;
+    right: 350px;
+    transition: 0.6s all;
+}
+#menu li a:hover:before
+{
+    right: 0;
+}
+#menu li a:hover
+{
+    color: #f70b0b;
+}
+
+/* about */
+.about
+{
+    margin: 0 auto;
+    width: 1000px;
+
+}
+.about h3
+{
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+    font-family: Helvetica;
+}
+.about p
+{
+    color: #fff;
+   
+}
+
+/* skills bar */
+.checkFloat
+{
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    padding :0;
+    display: inline-block;
+}
+.skills
+{
+    width: 150px;
+    margin: 50px auto;
+    color: white;
+    line-height: 40%;
+}
+.skills p
+{
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+.skills p:hover
+{
+    color: #2187e7;
+}
+
+.skills li
+{
+    margin: 20px auto;
+}
+.bar
+{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span
+{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.html
+{
+    width: 85%;
+}
+
+.css
+{
+    width: 50%;
+}
+
+.c
+{
+    width: 90%;
+}
+
+.ph
+{
+    width: 70%;
+}
+
+.ai
+{
+    width: 73%;
+}
+
+.git
+{
+    width: 43%;
+}
+
+.lang
+{
+    width: 150px;
+    margin: 50px auto;
+    color: white;
+    float: left;
+}
+.lang p
+{
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+.lang p:hover
+{
+    color: #db17a0;
+}
+
+.lang li
+{
+    margin: 20px auto;
+}
+.bar2
+{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar2 span
+{
+    height: 2px;
+    float: left;
+    background: #e72121;
+}
+.an
+{
+    width: 85%;
+}
+
+.fr
+{
+    width: 50%;
+}
+
+.hob
+{
+    width: 150px;
+    margin: 50px auto;
+    color: white;
+    float: right;
+}
+.hob p
+{
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+.hob p:hover
+{
+    color: #f70bd7;
+}
+
+.hob li
+{
+    margin: 20px auto;
+}
+.bar3
+{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar3 span
+{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.wd
+{
+    width: 85%;
+}
+
+.foot
+{
+    width: 50%;
+}
+
+.kick
+{
+    width: 80%;
+}
+
+/* contact */
+.contact
+{
+    width: 400px;
+    height: 450px;
+    padding: 40px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.prof-pic
+{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.contact h1
+{
+    font-weight: 100;
+    letter-spacing: 6;
+    font-size: 40px
+}
+.contact p
+{
+    font-weight: 200;
+    letter-spacing: 1;
+}
+.line-break
+{
+    width:300px;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+}
+.circle
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.363);
+    position: relative;
+}
+.home_contact
+{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: arial;
+    color: #fff;
+    text-transform: capitalize;
+}
+.home_contact a
+{
+    color: #fff;
+}
+.home_contact a:hover
+{
+    color: #c40a86;
+}
+.checkFloat 
+{
+    text-align: center;
+}
+ 
